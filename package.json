@@ -1,16 +1,20 @@
 {
   "name": "@aoberoi/typescript2",
   "version": "0.1.0",
+  "private": true,
   "description": "my hello world for typescript2",
-  "main": "index.ts",
+  "author": "Ankur Oberoi <aoberoi@gmail.com> (https://aoberoi.me/)",
   "scripts": {
     "start": "node build/index.js",
     "build": "tsc",
     "clean": "rm -rf build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "typings install"
   },
-  "author": "Ankur Oberoi <aoberoi@gmail.com> (https://aoberoi.me/)",
   "license": "MIT",
+  "dependencies": {
+    "loglevel": "^1.4.1"
+  },
   "devDependencies": {
     "tslint": "^3.13.0",
     "typescript": "^2.0.0",
