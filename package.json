@@ -6,6 +6,7 @@
   "author": "Ankur Oberoi <aoberoi@gmail.com> (https://aoberoi.me/)",
   "scripts": {
     "start": "node build/index.js",
+    "lint": "tslint index.ts",
     "build": "tsc",
     "clean": "rm -rf build",
     "test": "echo \"Error: no test specified\" && exit 1",

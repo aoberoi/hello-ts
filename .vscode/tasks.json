@@ -20,6 +20,10 @@
       "args": ["run", "test"]
     },
     {
+      "taskName": "lint",
+      "args": ["run", "lint"]
+    },
+    {
       "taskName": "build",
       "args": ["run", "build"]
     },
